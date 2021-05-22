@@ -1,0 +1,75 @@
+{
+  "cookies": {
+    "codeforces.com": {
+      "codeforces.com;/;39ce7": {
+        "Name": "39ce7",
+        "Value": "CFRdQT6R",
+        "Domain": "codeforces.com",
+        "Path": "/",
+        "SameSite": "",
+        "Secure": false,
+        "HttpOnly": false,
+        "Persistent": true,
+        "HostOnly": true,
+        "Expires": "2021-06-02T04:19:01.448614596+06:00",
+        "Creation": "2021-05-21T14:32:21.448614596+06:00",
+        "LastAccess": "2021-05-22T10:35:30.917193305+06:00"
+      },
+      "codeforces.com;/;JSESSIONID": {
+        "Name": "JSESSIONID",
+        "Value": "17C2B788BEB3DE52CE29D5CE7D5E9C9F-n1",
+        "Domain": "codeforces.com",
+        "Path": "/",
+        "SameSite": "",
+        "Secure": false,
+        "HttpOnly": true,
+        "Persistent": false,
+        "HostOnly": true,
+        "Expires": "9999-12-31T23:59:59Z",
+        "Creation": "2021-05-21T14:32:21.448614596+06:00",
+        "LastAccess": "2021-05-22T10:35:30.917193305+06:00"
+      },
+      "codeforces.com;/;X-User": {
+        "Name": "X-User",
+        "Value": "e3fe5485787608765047633dcd98a1f06c8995331eb545c49d6f7da38f316d6572ed08f4f8dc4980",
+        "Domain": "codeforces.com",
+        "Path": "/",
+        "SameSite": "",
+        "Secure": false,
+        "HttpOnly": false,
+        "Persistent": true,
+        "HostOnly": true,
+        "Expires": "2021-06-20T14:32:21.841442252+06:00",
+        "Creation": "2021-05-21T14:32:21.841442252+06:00",
+        "LastAccess": "2021-05-22T10:35:30.917193305+06:00"
+      },
+      "codeforces.com;/;X-User-Sha1": {
+        "Name": "X-User-Sha1",
+        "Value": "3fc1633d09b962908fbecf8c7f9be85ecd51cb92",
+        "Domain": "codeforces.com",
+        "Path": "/",
+        "SameSite": "",
+        "Secure": false,
+        "HttpOnly": false,
+        "Persistent": true,
+        "HostOnly": true,
+        "Expires": "2022-05-21T14:32:21.841442252+06:00",
+        "Creation": "2021-05-21T14:32:21.841442252+06:00",
+        "LastAccess": "2021-05-22T10:35:30.917193305+06:00"
+      }
+    }
+  },
+  "handle": "Tard1grad3",
+  "handle_or_email": "Tard1grad3",
+  "password": "f149d09bda8034028eaf48732687154dfaf82faa0880c79650444520cd19a73e3a67def8",
+  "ftaa": "llngzieyoh43e0133o",
+  "bfaa": "f1b3f18c715565b589b7823cda7448ce",
+  "last_submission": {
+    "problem_type": "contest",
+    "contest_id": "1516",
+    "group_id": "",
+    "problem_id": "b",
+    "submission_id": "116974113",
+    "RootPath": "/home/tard1grad3/Workspace/cf/contest"
+  }
+}
