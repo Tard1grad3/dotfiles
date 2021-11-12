@@ -1,0 +1,57 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+alt+l",
+        "command": "editor.action.formatDocument"
+    },
+    {
+        "key": "shift+alt+f",
+        "command": "-editor.action.formatDocument"
+    },
+    {
+        "key": "ctrl+alt+`",
+        "command": "workbench.action.tasks.build"
+    },
+    {
+        "key": "ctrl+shift+b",
+        "command": "-workbench.action.tasks.build"
+    },
+    {
+        "key": "alt+x",
+        "command": "togglemaxeditor.toggleMaximizeEditor"
+    },
+    {
+        "key": "ctrl+alt+,",
+        "command": "workbench.action.increaseViewSize"
+    },
+    {
+        "key": "ctrl+alt+.",
+        "command": "workbench.action.decreaseViewSize"
+    },
+    {
+        "key": "alt+m",
+        "command": "workbench.action.tasks.runTask",
+        "args": "CF-Menu"
+    },
+    {
+        "key": "alt+shift+m",
+        "command": "workbench.action.tasks.runTask",
+        "args": "CF-MenuContest"
+    },
+    {
+        "key": "alt+t",
+        "command": "workbench.action.tasks.runTask",
+        "args": "CF-Test",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+shift+s",
+        "command": "workbench.action.tasks.runTask",
+        "args": "CF-Submit",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+z",
+        "command": "workbench.action.toggleMaximizedPanel"
+    }
+]
