@@ -1,0 +1,118 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compile and run",
+            "type": "shell",
+            "command": "",
+            "args": [
+                "cp",
+                "E:/CP/main/baka.cpp",
+                "E:/CP",
+                "&&",
+                "g++",
+                "${fileBasename}",
+                "-o",
+                "test.out",
+                "&&",
+                "./test.out",
+                "<input.txt",
+                ">output.txt",
+                "&&",
+                "rm",
+                "*out",
+                "&&",
+                "rm",
+                "${fileBasename}"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true,
+            },
+            "problemMatcher": {
+                "owner": "cpp",
+                "fileLocation": [
+                    "relative",
+                    "${workspaceRoot}"
+                ],
+                "pattern": {
+                    "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
+                    "file": 1,
+                    "line": 2,
+                    "column": 3,
+                    "severity": 4,
+                    "message": 5
+                }
+            }
+        },
+        {
+            "type": "shell",
+            "label": "CF-Test",
+            "command": "clear&&cf test ${fileBasename}",
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": []
+        },
+        {
+            "type": "shell",
+            "label": "CF-Submit",
+            "command": "clear&&cf submit ${fileBasename}",
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": []
+        },
+        {
+            "type": "shell",
+            "label": "CF-Menu",
+            "command": "clear&&cf ${input:CFFunction}",
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": []
+        },
+        {
+            "type": "shell",
+            "label": "CF-MenuContest",
+            "command": "clear&&cf ${input:CFFunctionMin} ${input:CFContestID}",
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": []
+        }
+    ],
+    "inputs": [
+        {
+            "id": "CFContestID",
+            "description": "Contest ID",
+            "type": "promptString"
+        },
+        {
+            "id": "CFFunction",
+            "description": "Select operation",
+            "type": "pickString",
+            "options": [
+                "list",
+                "watch",
+                "parse",
+                "test",
+                "submit",
+                "open",
+                "stand",
+                "sid",
+                "pull",
+                "upgrade"
+            ],
+        },
+        {
+            "id": "CFFunctionMin",
+            "description": "Select operation",
+            "type": "pickString",
+            "options": [
+                "race",
+                "parse"
+            ],
+        }
+    ]
+}
