@@ -51,7 +51,7 @@
         "when": "editorTextFocus"
     },
     {
-        "key": "shift+alt+z",
+        "key": "alt+z",
         "command": "workbench.action.toggleMaximizedPanel"
     }
 ]
