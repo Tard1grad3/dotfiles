@@ -1,4 +1,4 @@
 komodo.assertMacroVersion(3);
 if (komodo.view) { komodo.view.setFocus(); }
 ko.commands.doCommand('cmd_save')
-ko.run.runEncodedCommand(window, 'g++ -std=c++17 -o %b %f & %b.exe <E:/Komodo/input.txt {\'cwd\': u\'%D\'}');
+ko.run.runEncodedCommand(window, 'g++ -std=c++17 -o %b %f & %b.exe <E:/Komodo/input.txt >E:/Komodo/output.txt {\'cwd\': u\'%D\'}');
